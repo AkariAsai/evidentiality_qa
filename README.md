@@ -3,6 +3,8 @@ This is the official implementation of the following paper: Akari Asai, Matt Gar
 
 In this paper, we introduce **Evidentiality-guidedb Geneator**, which incorporates evidentiality of passages---whether a passage contains correct evidence to support the output---into training the generator via multi-task learning of answer generation and evidentiality prediction for retrieval-augmented generation. Experimental results show large improvements across three knowledge intensive tasks: open question answering, fact verification and knowledge-enhanced dialogue. 
 
+![overview](overview_figure_final.jpg)
+
 ### Citations and Contact
 Please contact Akari Asai (akari[at].cs.washington.edu) for questions or suggestions. 
 

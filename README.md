@@ -57,10 +57,10 @@ Our training procedures are as follows:
 4. Run M on all of the passages included in training data for a evidentiality-guided generator to obtain silver evidentiality labels. 
 5. Train the evidentiality-guided generator with the multi-task loss.
 
-See more detailed instructions in the `evi_gen` and `ranker` directories.  
+See more detailed instructions in the `evi_gen` and `mining` directories.  
 
 ### Training our evidentiality generator
-We provide the resulting training data [here](https://drive.google.com/file/d/1BnWMB9XS63HPRVq7eWYJ3h4JvVsfr6-5/view?usp=sharing).         
+If you want to quickly start training our evidentiality-guided generator, we provide the resulting training data [here](https://drive.google.com/file/d/1BnWMB9XS63HPRVq7eWYJ3h4JvVsfr6-5/view?usp=sharing).         
 To train our evidentiality generator, please run the command below:
 
 ```

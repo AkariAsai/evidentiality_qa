@@ -15,7 +15,7 @@ Please see the training and evaluation details in each directories.
 ### Retrieved data (train / dev / test )
 We release the DPR retrieved results and the results with our silver evidentiality labels. All of the data can be downloaded from [here](https://drive.google.com/drive/folders/1PA4NEJr3W1JXNvofJYBlTo5nyyGkMqRL?usp=sharing).      
 - [`evidentiality_dpr.zip`](https://drive.google.com/file/d/1BnWMB9XS63HPRVq7eWYJ3h4JvVsfr6-5/view?usp=sharing) includes the retrieval results with our newly mined silver evidentiality labels for train sets for each target dataset. For each query, we include top 20 passages. 
-- [`eval_dpr.zip`](https://drive.google.com/file/d/1fpmpjHNR0doYdYdS-1298_Jg-V8urPoK/view?usp=sharing) includes the retrieval results for dev / test sets for each target dataset. 
+- [`eval_dpr.zip`](https://drive.google.com/file/d/1hXr04jaGuapqpcaROsM3xsSyQ100F6zd/view?usp=sharing) includes the retrieval results for dev / test sets for each target dataset. 
 
 ### Fine-tuned models
 You can download the fine-tuned models from the google drive repositories. 

@@ -1,5 +1,5 @@
 # Evidentiality-guided Generator
-This is the official implementation of the following paper: Akari Asai, Matt Gardner and Hannaneh Hajishirzi. [Evidentiality-guided Generation for Knowledge-Intensive NLP Tasks](https://akariasai.github.io/files/evidentiality_arxiv_2021.pdf). Preprint. 2021. 
+This is the official implementation of the following paper: Akari Asai, Matt Gardner and Hannaneh Hajishirzi. [Evidentiality-guided Generation for Knowledge-Intensive NLP Tasks](https://aclanthology.org/2022.naacl-main.162/). In Proc. NAACL. 2021. 
 
 In this paper, we introduce **Evidentiality-guided Generator**, which incorporates evidentiality of passages---whether a passage contains correct evidence to support the output---into training the generator via multi-task learning of answer generation and evidentiality prediction for retrieval-augmented generation. Experimental results show large improvements across three knowledge intensive tasks: open question answering, fact verification and knowledge-enhanced dialogue. 
 
@@ -82,10 +82,13 @@ Please contact Akari Asai (akari[at].cs.washington.edu) for questions or suggest
 If you use our data/models in your work, please cite our paper. 
 
 ```
-@article{asai2021evidentiality,
-  title={Evidentiality-guided Generation for Knowledge-Intensive NLP Tasks},
-  author={Asai, Akari and Gardner, Matt and Hajishirzi, Hannaneh},
-  journal={arXiv preprint arXiv:2112.08688},
-  year={2021}
+@inproceedings{asai-etal-2022-evidentiality,
+    title = "Evidentiality-guided Generation for Knowledge-Intensive {NLP} Tasks",
+    author = "Asai, Akari  and
+      Gardner, Matt  and
+      Hajishirzi, Hannaneh",
+    booktitle = "Proc. NAACL",
+    year = "2022",
+    url = "https://aclanthology.org/2022.naacl-main.162"
 }
 ```
